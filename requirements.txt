@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+imbalanced-learn
+mlflow
+fastapi
+uvicorn
+apache-airflow
+great-expectations
+evidently
+joblib
