@@ -33,5 +33,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: nithinng27/fraud-detection-api:latest
-                nithinng27/fraud-detection-api:${{ github.sha }}
+          tags: |
+            nithinng27/fraud-detection-api:latest
+            nithinng27/fraud-detection-api:${{ github.sha }}
