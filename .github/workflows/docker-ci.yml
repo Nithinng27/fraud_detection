@@ -33,4 +33,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourdockerhubusername/fraud-detection-api:latest
+          tags: nithinng27/fraud-detection-api:latest
+                nithinng27/fraud-detection-api:${{ github.sha }}
